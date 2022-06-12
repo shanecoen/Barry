@@ -31,6 +31,13 @@ a {
     text-decoration: none; 
 }
 
+/* Header Styles */
+
+#main-header-image {
+    background: url('../images/Barry.png') center / cover no-repeat;
+    height: 75vh;
+}
+
 /* Navbar */
 
 #navbar {
@@ -77,6 +84,32 @@ a {
     background-color: rgb(0, 0, 128, 0.5);
 }
 
+/* Button Styles */
+
+.main-button-style {
+    display: block;
+    width: 250px;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px rgb(0, 0, 128);
+    margin: 1rem auto;    
+    border: 1px solid navy;
+    color: navy;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.main-button-style:hover {
+    background-color: navy;
+    border: 1px solid beige;
+    color: beige;  
+    box-shadow: 1px 2px 3px beige;
+    text-decoration: none;
+}
+
 /* Media Queries min-width: 400px */
 
 @media only screen and (min-width: 400px) {
@@ -117,6 +150,15 @@ a {
     .navbar-brand {
         font-size: 180%;
     }
+
+    body {    
+        font: 600 80%/1.5 'Exo', 'sans-serif'; 
+    }
+}
+
+/* Media Queries min-width: 1200px */
+
+@media only screen and (min-width: 1200px) {
 
     body {    
         font: 600 100%/1.5 'Exo', 'sans-serif'; 
