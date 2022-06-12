@@ -6,3 +6,20 @@
     padding: 0;
     border: none;
 }
+
+html {
+    font-size: 1.25rem;
+    overflow-x: hidden;
+}
+
+/* Base Styles */
+
+#navbar {
+    background-color: navy;
+    padding: 2rem 4rem;
+    color: beige;
+}
+
+#navbar li {
+    color: beige;
+}
