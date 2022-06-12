@@ -117,4 +117,8 @@ a {
     .navbar-brand {
         font-size: 180%;
     }
+
+    body {    
+        font: 600 100%/1.5 'Exo', 'sans-serif'; 
+    }
 }
