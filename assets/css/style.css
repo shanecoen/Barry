@@ -12,14 +12,53 @@ html {
     overflow-x: hidden;
 }
 
-/* Base Styles */
+body {    
+    font: 600 100%/1.5 'Exo', 'sans-serif';
+    letter-spacing: 2px;  
+    overflow-x:hidden;   
+}
+
+h1, h2 {
+    font-weight: 400;        
+    letter-spacing: 4px;  
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none; 
+}
+
+/* Navbar */
 
 #navbar {
     background-color: navy;
-    padding: 2rem 4rem;
+    padding: 1.5rem 4em;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    margin-right: 5rem;
     color: beige;
 }
 
-#navbar li {
+.navbar-brand:hover {
     color: beige;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 2rem;    
+    color: beige;
+    font-weight: 300;
+}
+
+.navbar-nav .nav-link:active {
+    color: maroon;
+}
+
+.navbar-nav .nav-link:hover {    
+    color: maroon;
+    font-weight: 600;
 }
