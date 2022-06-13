@@ -34,8 +34,19 @@ a {
 /* Header Styles */
 
 #main-header-image {
-    background: url('../images/Barry2.png') center / cover no-repeat;
+    background: url('../images/Barry2.png') no-repeat;
     height: 75vh;
+    box-shadow: inset 0 0 75px 75px rgb(0, 0, 128, 0.5);
+}
+
+.header-autograph {
+    display: none;
+    text-align: center;
+}
+
+#barry-autograph {
+    max-width: 20%;
+    margin: 6.5rem;
 }
 
 /* Navbar */
@@ -95,6 +106,7 @@ a {
     margin: 1rem auto;    
     border: 1px solid navy;
     color: navy;
+    background-color: beige;
     text-align: center;
     font-size: 1.25rem;
     text-decoration: none;
@@ -162,5 +174,10 @@ a {
 
     body {    
         font: 600 100%/1.5 'Exo', 'sans-serif'; 
+    }
+
+    .header-autograph {
+        display: block;
+        text-align: center;
     }
 }
